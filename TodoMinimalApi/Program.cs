@@ -66,4 +66,6 @@ app.MapDelete("/item/{id}", async (ToDoDbContext dbContext, int id) => {
     return Results.NoContent();
 });
 
+app.MapGet("/", () => "Welcome to my API!");
+
 app.Run();
