@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\TodoMinimalApi\\TodoMinimalApi.csproj": {}
+    "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\todo-list-app\\TodoMinimalApi\\TodoMinimalApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\TodoMinimalApi\\TodoMinimalApi.csproj": {
+    "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\todo-list-app\\TodoMinimalApi\\TodoMinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\TodoMinimalApi\\TodoMinimalApi.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\todo-list-app\\TodoMinimalApi\\TodoMinimalApi.csproj",
         "projectName": "TodoMinimalApi",
-        "projectPath": "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\TodoMinimalApi\\TodoMinimalApi.csproj",
+        "projectPath": "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\todo-list-app\\TodoMinimalApi\\TodoMinimalApi.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\TodoMinimalApi\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\הנדסת תוכנה\\פרקטיקוד\\todo-list-app\\TodoMinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +60,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\TodoMinimalApi\\",
+  "WorkspaceRootPath": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\TodoMinimalApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\TodoMinimalApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B31D6B5-27CD-479D-ADEE-732F1E6751B4}|TodoMinimalApi.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\todominimalapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B31D6B5-27CD-479D-ADEE-732F1E6751B4}|TodoMinimalApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31D6B5-27CD-479D-ADEE-732F1E6751B4}|TodoMinimalApi.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\todominimalapi\\todominimalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B31D6B5-27CD-479D-ADEE-732F1E6751B4}|TodoMinimalApi.csproj|solutionrelative:todominimalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoMinimalApi",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\TodoMinimalApi\\TodoMinimalApi.csproj",
+              "RelativeDocumentMoniker": "TodoMinimalApi.csproj",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\TodoMinimalApi\\TodoMinimalApi.csproj",
+              "RelativeToolTip": "TodoMinimalApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T12:46:22.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\TodoMinimalApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\TodoMinimalApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:53:18.203Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\TodoMinimalApi\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\todo-list-app\\TodoMinimalApi\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T12:46:57.326Z",
               "EditorCaption": ""
             }
           ]
