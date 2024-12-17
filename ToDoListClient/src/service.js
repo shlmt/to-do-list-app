@@ -1,10 +1,16 @@
 import axios from 'axios'
 
-const apiUrl = process.env.REACT_APP_API_URL
+axios.defaults.baseURL = process.env.REACT_APP_API_URL
+
+axios.interceptors.response.use((response) => {
+  return response;
+}, (error) => {
+  console.log("error:" + error.message)
+})
 
 export default {
   getTasks: async () => {
-    const result = await axios.get(`${apiUrl}/item`)    
+    const result = await axios.get(`/item`)    
     return result.data
   },
 
@@ -13,16 +19,16 @@ export default {
       name,
       isCompleted:false
     }
-    const result = await axios.post(`${apiUrl}/item`, item)
+    const result = await axios.post(`/item`, item)
     return result
   },
 
   setCompleted: async(id, isComplete)=>{
-    await axios.put(`${apiUrl}/item/${id}?isComplete=${isComplete}`)
+    await axios.put(`/item/${id}?isComplete=${isComplete}`)
     return {}
   },
 
   deleteTask: async(id)=>{
-    await axios.delete(`${apiUrl}/item/${id}`)
+    await axios.delete(`/item/${id}`)
   }
 }
