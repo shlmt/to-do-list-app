@@ -11,10 +11,10 @@ axios.interceptors.response.use((response) => {
 export default {
   getTasks: async () => {
     const result = await axios.get(`/item`)    
-    return result.data
+    return result?.data || []
   },
 
-  addTask: async(name)=>{
+  addTask: async (name) => {
     const item ={
       name,
       isCompleted:false
@@ -23,12 +23,12 @@ export default {
     return result
   },
 
-  setCompleted: async(id, isComplete)=>{
+  setCompleted: async (id, isComplete) => {
     await axios.put(`/item/${id}?isComplete=${isComplete}`)
     return {}
   },
 
-  deleteTask: async(id)=>{
+  deleteTask: async (id) => {
     await axios.delete(`/item/${id}`)
   }
 }
