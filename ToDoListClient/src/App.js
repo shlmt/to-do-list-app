@@ -5,24 +5,24 @@ function App() {
   const [newTodo, setNewTodo] = useState("")
   const [todos, setTodos] = useState([])
 
-  async function getTodos() {
+  const getTodos = async () => {
     const todos = await service.getTasks()
     setTodos(todos)
   }
 
-  async function createTodo(e) {
+  const createTodo = async (e) => {
     e.preventDefault()
     await service.addTask(newTodo)
     setNewTodo("")
     await getTodos()
   }
 
-  async function updateCompleted(todo, isComplete) {
+  const updateCompleted = async (todo, isComplete) => {
     await service.setCompleted(todo.id, isComplete)
     await getTodos()
   }
 
-  async function deleteTodo(id) {
+  const deleteTodo = async (id) => {
     await service.deleteTask(id)
     await getTodos()
   }

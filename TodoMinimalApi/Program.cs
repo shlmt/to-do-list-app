@@ -41,7 +41,7 @@ app.MapGet("/item", async (ToDoDbContext dbContext) =>  {
 
 app.MapPost("/item", async (ToDoDbContext dbContext, Item item) => {
     if (item == null) return Results.BadRequest("Item cannot be null.");
-    if (item.Name == null) return Results.BadRequest("fields cannot be null.");
+    if (item.Name == null || item.Name == "") return Results.BadRequest("fields cannot be null.");
     if(!item.IsCompleted) item.IsCompleted = false;
     await dbContext.Items.AddAsync(item);
     await dbContext.SaveChangesAsync();
